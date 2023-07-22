@@ -1,0 +1,56 @@
+h1{
+    background-color:#33bbcc
+    color:red;
+    text-align:left;
+    font-size:50px;
+}
+a{
+    /*background-color:sienna;
+    color:yellow;*/
+}
+a:link {color:yellow;}
+a:visited {color:yellow;}
+#segment{
+    font-size:15pt;
+}
+
+/* unordered list */
+ul.a{list-style:circle;}
+ul.b{list-style:square;}
+/* ordered list */
+ol.c{list-style:number;}
+ol.d{list-style:upper-alpha;}
+
+table{
+    border-collapse: collapse;
+    /*width: 50%;*/
+}
+table, th, td {
+    border: 3px solid black;
+}
+th{
+    height: 30px;
+}
+td,th {
+    text-align: center;
+    padding: 10px;
+}
+body{
+    /*background-image:url('/image/beautiful-girl-stands-near-walll-with-leaves.jpg');
+    background-image:url('https://static.runoob.com/images/mix/gradient2.png');
+    background-repeat:repeat-x;
+    background-image:url('https://static.runoob.com/images/mix/img_tree.png');
+    background-position: right top;
+    background-repeat: no-repeat;*/
+    background: #668899 url('https://static.runoob.com/images/mix/img_tree.png') no-repeat top right;
+}
+
+div.ex{
+    margin: 0px;
+    border: 5px solid black;
+    text-align: center;
+    padding: 10px;
+    width: 220px;
+    background-color: yellow;
+    color: lightblue;
+}
