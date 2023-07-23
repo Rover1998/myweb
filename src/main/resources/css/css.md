@@ -15,4 +15,6 @@
 4. background-attachment
 5. background-position
 ## Css Box Model ##
-The Css Box contains "marigin" "border" "padding" "content" from outside to inside
+The Css Box contains "margin" "border" "padding" "content" from outside to inside
+## Css Pseudo Class ##
+Add extra effect to selector

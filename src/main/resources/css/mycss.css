@@ -4,12 +4,27 @@ h1{
     text-align:left;
     font-size:50px;
 }
+h1.hidden{
+    visibility:hidden;
+    display:none;
+}
+li{
+    display:inline;
+}
+span{
+    display:block;
+}
 a{
     /*background-color:sienna;
     color:yellow;*/
 }
-a:link {color:yellow;}
-a:visited {color:yellow;}
+a.red{
+    background-color:blue;
+    color:red;
+}
+a.red:link{color:yellow}
+/*a:link {color:yellow;}
+a:visited {color:yellow;}*/
 #segment{
     font-size:15pt;
 }
@@ -26,7 +41,15 @@ table{
     /*width: 50%;*/
 }
 table, th, td {
-    border: 3px solid black;
+    border: 3px green;
+    /*border-top-style: dotted;
+    border-bottom-style: solid;
+    border-left-style: dashed;
+    border-right-style: double;*/
+    border-top-style: groove;
+    border-bottom-style: solid;
+    border-left-style: dashed;
+    border-right-style: double;
 }
 th{
     height: 30px;
@@ -43,6 +66,8 @@ body{
     background-position: right top;
     background-repeat: no-repeat;*/
     background: #668899 url('https://static.runoob.com/images/mix/img_tree.png') no-repeat top right;
+    margin:0px;
+    overflow: visible;
 }
 
 div.ex{
@@ -53,4 +78,53 @@ div.ex{
     width: 220px;
     background-color: yellow;
     color: lightblue;
+    overflow:auto;
+}
+div{
+    width: 250px;
+    color: yellow;
+    overflow:auto;
+}
+p.pos_fixed{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+p.pos_static{
+    position: static;
+    top: 30px;
+    right: 30px;
+}
+p.pos_relative{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+p.pos_absolute{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+img.float_right{
+    width:100px;
+    height:100px;
+    float:right;
+}
+img.float_left{
+    width:100px;
+    height:100px;
+    float:left;
+}
+div+p
+{
+/* near brother */
+  background-color:yellow;
+}
+div~p{
+/* all brothers */
+  color:red;
+}
+div p{
+/* generations */
+    font-size: 30px;
 }
